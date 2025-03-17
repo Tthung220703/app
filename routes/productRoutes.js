@@ -5,7 +5,7 @@ const {
   getAllProducts,
   updateProduct,
   deleteProduct
-} = require("../controllers/controller");
+} = require("../controllers/productController");
 
 const router = express.Router();
 
