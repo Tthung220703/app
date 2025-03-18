@@ -3,16 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quản lý sản phẩm</title>
+    <title>Quản Lý Sản Phẩm</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Danh sách sản phẩm</h1>
-    <ul id="productList"></ul>
+    <h1>Quản Lý Sản Phẩm</h1>
 
-    <h2>Thêm sản phẩm</h2>
+    <!-- Tìm kiếm sản phẩm -->
+    <input type="text" id="search" placeholder="Nhập tên sản phẩm">
+    <button id="searchBtn">Tìm kiếm</button>
+
+    <br><br>
+
+    <!-- Thêm sản phẩm -->
     <input type="text" id="name" placeholder="Tên sản phẩm">
     <input type="number" id="price" placeholder="Giá">
-    <button id="addBtn">Thêm</button>
+    <button id="addBtn">Thêm sản phẩm</button>
+
+    <br><br>
+
+    <h2>Danh sách sản phẩm</h2>
+    <div id="productList"></div>
 
     <script src="app.js"></script>
 </body>
